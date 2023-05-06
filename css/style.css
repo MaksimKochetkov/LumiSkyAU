@@ -720,7 +720,7 @@ header, footer {
 #buttonUp:hover {
      background-color: var(--yellow);
 }
-@media (min-width: 300px) and (max-width:750px) {
+@media (min-width: 300px) and (max-width:1000px) {
      #buttonUp {
           visibility: hidden;
           overflow: hidden;
