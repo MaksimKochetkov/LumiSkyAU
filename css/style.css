@@ -722,6 +722,7 @@ header, footer {
 }
 @media (min-width: 300px) and (max-width:750px) {
      #buttonUp {
+          visibility: hidden;
           overflow: hidden;
           display: block;
      }
