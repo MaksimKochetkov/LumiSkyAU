@@ -720,6 +720,12 @@ header, footer {
 #buttonUp:hover {
      background-color: var(--yellow);
 }
+@media (min-width: 300px) and (max-width:750px) {
+     #buttonUp {
+          overflow: hidden;
+          display: block;
+     }
+}
 
 .footer {
      display: flex;
