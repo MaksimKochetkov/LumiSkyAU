@@ -726,7 +726,6 @@ header, footer {
           justify-content: center;
           visibility: hidden;
           overflow: hidden;
-          display: block;
      }
 }
 
@@ -1271,7 +1270,7 @@ input[name="slider"] {
 }
 
 .booking__forma {
-     margin: 50px 20px;
+     margin: 50px auto;
 }
 
 .form__contacts {
