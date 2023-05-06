@@ -1264,7 +1264,7 @@ input[name="slider"] {
 
 /************бронирование*************/
 .booking {
-     max-width: 100%;
+     max-width: 100vw;
 }
 .booking__scheme {
      display: flex;
