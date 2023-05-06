@@ -1335,7 +1335,6 @@ input[name="slider"] {
 
 .check-box:checked+.square::before {
      content: "";
-     animation: SNIKL 1s linear infinite;
      position: absolute;
      width: 8px;
      height: 8px;
@@ -1348,22 +1347,7 @@ input[name="slider"] {
 .check-box:focus+.sguare {
      box-shadow: 0 0 0 1px var(--dark-gray);
 }
-@keyframes SNIKL {
-     0% {
-          background-color: green;
-     }
-     25% {
-          background-color: red;
-     }
-     50% {
-          background-color: aqua;
-     }
-     75% {
-          background-color: darkorange;
-     }
-     100% {
-          background-color: green;
-     }
+
 /* адаптация страницы юронирования */
 @media (min-width: 1274px) {
      .booking__forma {
