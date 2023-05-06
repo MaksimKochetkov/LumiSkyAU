@@ -704,7 +704,7 @@ header, footer {
 
 /* footer */
 #buttonUp {
-     display: flex;
+     display: block;
      position: fixed;
      bottom: 20px;
      right: 30px;
@@ -722,6 +722,8 @@ header, footer {
 }
 @media (min-width: 300px) and (max-width:1500px) {
      #buttonUp {
+          display: none !important;
+          justify-content: center;
           visibility: hidden;
           overflow: hidden;
           display: block;
