@@ -1416,6 +1416,8 @@ input[name="slider"] {
      .booking__forma {
           max-width: 100%;
           padding: 0.5em 1em 2em;
+         display: grid;
+          grid-template-columns: 0fr 2fr;
 
      }
      .form__contacts {
